@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /ckfinder
+Disallow: /media
+Disallow: /public
+Disallow: /system
+Disallow: /user_guide
+Disallow: /ckfinder
+Sitemap: http://vinplay.net/sitemap.xml
