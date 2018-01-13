@@ -29,11 +29,13 @@
 <!-- AdminLTE App -->
 <script src="<?php echo public_url('admin') ?>/dist/js/app.min.js"></script>
 
-<script src="<?php echo public_url('admin') ?>/plugins/ckeditor/ckeditor.js"></script>
+<script src="<?php echo public_url('admin') ?>/ckfinder/ckfinder.js"></script>
+<script src="<?php echo public_url('admin') ?>/ckeditor/ckeditor.js"></script>
 <script src="<?php echo public_url('site') ?>/js/jquery.validate.min.js"></script>
 <link rel="stylesheet" href="<?php echo public_url('admin') ?>/dist/css/jquery-ui.css">
 <script src="<?php echo public_url('admin') ?>/dist/css/jquery-ui.js"></script>
 <script>
+    var baseUrl = "<?php echo public_url('admin') ?>";
     $('a.verify_action').click(function(){
         if(!confirm('Bạn chắc chắn muốn xóa ?'))
         {
