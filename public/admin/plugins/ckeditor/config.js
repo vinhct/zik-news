@@ -34,9 +34,9 @@ CKEDITOR.editorConfig = function(config)
 	config.toolbar_Custom_Short = [
 		["Image","-","Bold","Italic","Underline","Strike","-","NumberedList","BulletedList","-","Outdent","Indent","Blockquote","-","Link","Unlink","-","Table","SpecialChar","-","Cut","Copy","Paste","-","Undo","Redo","Format","-"]
 	];
-	config.filebrowserBrowseUrl = '/public/admin/plugins/ckeditor/ckfinder/ckfinder.html';
-	config.filebrowserImageBrowseUrl = '/public/admin/plugins/ckeditor/ckfinder/ckfinder.html?Type=Images';
+	config.filebrowserBrowseUrl = '/zik-news/public/admin/plugins/ckeditor/ckfinder/ckfinder.html';
+	config.filebrowserImageBrowseUrl = '/zik-news/public/admin/plugins/ckeditor/ckfinder/ckfinder.html?Type=Images';
 	config.filebrowserFlashBrowseUrl = 't/public/admin/plugins/ckeditor/ckfinder/ckfinder.html?Type=Flash';
-	config.filebrowserUploadUrl = '/public/admin/plugins/ckeditor/ckfinder/core/connector/aspx/connector.aspx?command=QuickUpload&type=Files';
-	config.filebrowserImageUploadUrl = '/public/admin/plugins/ckeditor/ckfinder/core/connector/aspx/connector.aspx?command=QuickUpload&type=Images';
+	config.filebrowserUploadUrl = '/zik-news/public/admin/plugins/ckeditor/ckfinder/core/connector/aspx/connector.aspx?command=QuickUpload&type=Files';
+	config.filebrowserImageUploadUrl = '/zik-news/public/admin/plugins/ckeditor/ckfinder/core/connector/aspx/connector.aspx?command=QuickUpload&type=Images';
 };

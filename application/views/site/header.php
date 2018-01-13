@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="logo">
-                    <a href="<?php echo base_url() ?>"><img src="<?php echo public_url('site/images/logo.png') ?>"></a>
+                    <a href="<?php echo base_url() ?>"><img src="<?php echo public_url('site/images/logo1.png') ?>"></a>
                 </div>
                 <div class="linkgame">
                     <ul>
