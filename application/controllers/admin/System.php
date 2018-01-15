@@ -51,6 +51,7 @@ Class System extends MY_Controller
 		 'sign' => $this->input->post('sign'),
 		'ispopup' => $this->input->post('ispopup'),
                  'linkpopup' => $this->input->post('linkpopup'),
+                'desHome' => $this->input->post('desHome'),
 
             );
             if ($this->system_model->create($data)) {
@@ -101,6 +102,7 @@ Class System extends MY_Controller
 		    'sign' => $this->input->post('sign'),
                     'ispopup' => $this->input->post('ispopup'),
                     'linkpopup' => $this->input->post('linkpopup'),
+                    'desHome' => $this->input->post('desHome'),
                 );
                 move_uploaded_file($file_tmp, "public/uploads/adv/" . $file_name);
                 if ($this->system_model->update($id, $data)) {
@@ -128,7 +130,8 @@ Class System extends MY_Controller
                     'images' => $this->input->post('imagevalue'),
  	             'sign' => $this->input->post('sign'),
                      'ispopup' => $this->input->post('ispopup'),
-                 'linkpopup' => $this->input->post('linkpopup'),        
+                 'linkpopup' => $this->input->post('linkpopup'),
+                    'desHome' => $this->input->post('desHome'),
                 );
 
                 if ($this->system_model->update($id, $data)) {

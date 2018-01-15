@@ -195,6 +195,9 @@ footer .ft-thanhtoan {
     padding-bottom: 37px;
     text-align: center;
     vertical-align: middle;
+
+    display: table;
+    margin: 0 auto;
 }
 
 footer .ft-thanhtoan span {

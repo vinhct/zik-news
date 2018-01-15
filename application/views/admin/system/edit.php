@@ -152,6 +152,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-sm-2 control-label">Giới thiệu game:</label>
+
+                                <div class="col-sm-8">
+                                    <textarea id="desHome" name="desHome" rows="20" cols="80">
+                                        <?php echo $info->desHome?>
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
                          <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Hiển thị popup:</label>
@@ -192,6 +203,7 @@
         // instance, using default configuration.
         CKEDITOR.replace('contact');
 		CKEDITOR.replace('sign');
+        CKEDITOR.replace('desHome');
     });
     function readURL(input) {
         if (input.files && input.files[0]) {

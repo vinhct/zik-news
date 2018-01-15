@@ -34,7 +34,8 @@
                                 <label class="col-sm-2 control-label">Đường dẫn youtube:</label>
 
                                 <div class="col-sm-8">
-                                    <input type="text" class="form-control" id="linkyoutube" name="linkyoutube" value="">
+                                    <input type="text" class="form-control" id="linkyoutube" name="linkyoutube"
+                                           value="">
                                 </div>
                             </div>
                         </div>
@@ -61,7 +62,7 @@
                                 <label class="col-sm-2 control-label">CodeGA:</label>
 
                                 <div class="col-sm-8">
-                                   <textarea cols="175" rows="15" id="codeGa" name="codeGa" ></textarea>
+                                    <textarea cols="175" rows="15" id="codeGa" name="codeGa"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -78,12 +79,14 @@
                         <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Ảnh Login:</label>
+
                                 <div class="col-sm-3">
                                     <div class="fileinput fileinput-new" data-provides="fileinput"><span
-                                            class="btn btn-primary btn-file"><span class="fileinput-new">Chọn file </span> <span
+                                            class="btn btn-primary btn-file"><span
+                                                class="fileinput-new">Chọn file </span> <span
                                                 class="fileinput-exists">ảnh</span>
                                          <input type="file" id="images" name="images"><div class="ripple-wrapper"></div></span> <span
-                                            class="fileinput-filename"></span> </div>
+                                            class="fileinput-filename"></span></div>
                                     <img id="imageselect" src="../../public/admin/images/no-image.png"
                                          style="margin-top: 5px;width: 150px">
                                 </div>
@@ -134,29 +137,41 @@
                                 </div>
                             </div>
                         </div>
-			 <div class="form-group">
+                        <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Sign:</label>
 
                                 <div class="col-sm-8">
-                                     <textarea id="sign" name="sign" rows="20" cols="80">
+                                    <textarea id="sign" name="sign" rows="20" cols="80">
                                     </textarea>
                                 </div>
                             </div>
                         </div>
-			<div class="form-group">
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-sm-2 control-label">Giới thiệu game:</label>
+
+                                <div class="col-sm-8">
+                                    <textarea id="desHome" name="desHome" rows="20" cols="80">
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Hiển thị popup:</label>
+
                                 <div class="col-sm-8">
-                                     <input type="checkbox" name="ispopup" value="1">
+                                    <input type="checkbox" name="ispopup" value="1">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Đường dẫn popup:</label>
+
                                 <div class="col-sm-8">
-                                     <input type="text" class="form-control" name="linkpopup">
+                                    <input type="text" class="form-control" name="linkpopup">
                                 </div>
                             </div>
                         </div>
@@ -179,7 +194,8 @@
         // Replace the <textarea id="editor1"> with a CKEditor
         // instance, using default configuration.
         CKEDITOR.replace('contact');
-		CKEDITOR.replace('sign');
+        CKEDITOR.replace('sign');
+        CKEDITOR.replace('desHome');
     });
     function readURL(input) {
         if (input.files && input.files[0]) {

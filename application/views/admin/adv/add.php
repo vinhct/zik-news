@@ -8,7 +8,8 @@
         <div class="col-xs-12">
             <div class="box">
                 <!-- /.box-header -->
-                <form id="form-news-add" class="form" enctype="multipart/form-data" method="post" action="" novalidate="novalidate">
+                <form id="form-news-add" class="form" enctype="multipart/form-data" method="post" action=""
+                      novalidate="novalidate">
                     <fieldset
                     <div class="box-body">
                         <div class="form-group">
@@ -41,6 +42,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Ví trí:</label>
+
                                 <div class="col-sm-3">
                                     <select class="form-control" id="position" name="position">
 
@@ -52,6 +54,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <label class="col-sm-2 control-label">Ảnh quảng cáo:</label>
+
                                 <div class="col-sm-3">
                                     <div class="fileinput fileinput-new" data-provides="fileinput"><span
                                             class="btn btn-primary btn-file"><span
@@ -64,20 +67,20 @@
                                 </div>
                             </div>
                         </div>
-                       <div class="form-group">
-                        <div class="row">
-                            <label class="col-sm-2 control-label">Trạng thái:</label>
+                        <div class="form-group">
+                            <div class="row">
+                                <label class="col-sm-2 control-label">Trạng thái:</label>
 
-                            <div class="col-sm-3">
-                                <select class="form-control" id="status" name="status">
-                                    <option value="0">Không hiển thị</option>
-                                    <option value="1">Hiển thị</option>
-                                </select>
+                                <div class="col-sm-3">
+                                    <select class="form-control" id="status" name="status">
+                                        <option value="0">Không hiển thị</option>
+                                        <option value="1">Hiển thị</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                    </div>
                         <div class="row">
-                        <div class="form-group">
+                            <div class="form-group">
 
                                 <div class="col-sm-3">
                                     <input type="submit" value="Thêm mới" name="addnews"
