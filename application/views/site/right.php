@@ -32,7 +32,7 @@
         </li>
         <li id="fbw_id-2" class="widget widget_fbw_id">
             <div class="fb-page" data-href="<?php echo $linkface ?>" data-small-header="false"
-                 data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                data-hide-cover="false" data-show-facepile="true" data-width="500">
                 <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
                         href="<?php echo $linkface ?>"></a></blockquote>
             </div>
