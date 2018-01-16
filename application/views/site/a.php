@@ -22,7 +22,7 @@
         <div class="fb-page" data-href="<?php echo $linkface ?>" data-small-header="false"
              data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
-                    href="<?php echo $linkface ?>">VinPlay.com</a></blockquote>
+                    href="<?php echo $linkface ?>">Zum.club</a></blockquote>
         </div>
     </div>
     <div class="content_home_left">
