@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost:8080/zik-news/';
-$config['api_url'] = 'http://portal.vinplay.com/api';
+$config['api_url'] = 'http://apiportal.zumclub.org/api';
 /*
 |--------------------------------------------------------------------------
 | Index File
